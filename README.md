@@ -2,8 +2,6 @@
 
 [![Actions Status](https://github.com/SerChertoff/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/SerChertoff/frontend-project-44/actions)
 
-Замените `SerChertoff/frontend-project-44` в ссылке на ваш репозиторий после пуша на GitHub.
-
 ## Установка
 
 ```bash
