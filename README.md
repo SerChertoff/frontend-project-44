@@ -33,7 +33,7 @@ npx brain-prime
 
 ## Демонстрация (asciinema)
 
-После записи сценария (установка пакета, победа, поражение) вставьте сюда опубликованную ссылку на asciinema.
+- [Демонстрация brain-even](https://asciinema.org/a/PgLMb14rLXLkc0Ta)
 
 ## Публикация пакета (dry-run)
 
