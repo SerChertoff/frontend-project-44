@@ -9,12 +9,12 @@ const getGameLaunch = (startGame, task) => {
   for (let i = 0; i < maxStep; i += 1) {
     const { question, correctAnswer } = startGame()
     console.log(`Question: ${question}`)
-    const userAnswer = readlineSync.question('Your answer: ')
+    const userAnswer = readlineSync.question('Your answer: ').trim()
     if (correctAnswer === userAnswer) {
       console.log('Correct!')
     }
     else {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`)
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'. Let's try again, ${userName}!`)
 
       return
     }

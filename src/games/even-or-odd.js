@@ -5,7 +5,7 @@ const isEven = number => number % 2 === 0
 
 const playEvenorOdd = () => {
   const minNum = 1
-  const maxNum = 10
+  const maxNum = 100
   const numRandom = getRandomNumber(minNum, maxNum)
   const correctAnswer = isEven(numRandom) ? 'yes' : 'no'
 
