@@ -33,7 +33,21 @@ npx brain-prime
 
 ## Демонстрация (asciinema)
 
-- [Демонстрация brain-even](https://asciinema.org/a/PgLMb14rLXLkc0Ta)
+### brain-even
+
+[![asciicast](https://asciinema.org/a/PgLMb14rLXLkc0Ta.svg)](https://asciinema.org/a/PgLMb14rLXLkc0Ta)
+
+### brain-calc
+
+Запись **[brain-calc.cast](brain-calc.cast)** в корне репозитория: запуск `node bin/brain-calc.js`, полное прохождение (три верных ответа, поздравление), затем второй запуск с **ошибкой** на первом вопросе (вывод «wrong answer», «Let's try again»).
+
+Воспроизведение локально:
+
+```bash
+asciinema play brain-calc.cast
+```
+
+Чтобы получить превью как у brain-even, загрузите этот файл на [asciinema.org](https://asciinema.org) и добавьте в README строку вида `[![asciicast](https://asciinema.org/a/<id>.svg)](https://asciinema.org/a/<id>)`.
 
 ## Публикация пакета (dry-run)
 

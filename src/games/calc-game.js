@@ -16,7 +16,7 @@ const calculate = (operator, numOne, numTwo) => {
 
 const playCalculator = () => {
   const minNum = 1
-  const maxNum = 10
+  const maxNum = 100
   const firstNumRandom = getRandomNumber(minNum, maxNum)
   const secondNumRandom = getRandomNumber(minNum, maxNum)
   const operators = ['+', '-', '*']

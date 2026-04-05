@@ -14,7 +14,8 @@ const getGameLaunch = (startGame, task) => {
       console.log('Correct!')
     }
     else {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'. Let's try again, ${userName}!`)
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
+      console.log(`Let's try again, ${userName}!`)
 
       return
     }
