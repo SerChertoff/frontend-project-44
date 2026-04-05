@@ -43,6 +43,12 @@ npx brain-prime
 
 В записи: полное прохождение (три верных ответа, поздравление) и второй запуск с **ошибкой** на первом вопросе. Исходный файл в репозитории: [brain-calc.cast](brain-calc.cast). Локально: `asciinema play brain-calc.cast`.
 
+### brain-gcd
+
+[![asciicast](https://asciinema.org/a/UfPHkeJhzyPpE53L.svg)](https://asciinema.org/a/UfPHkeJhzyPpE53L)
+
+В записи: три верных ответа (как в задании) и второй запуск с неверным ответом для пары `25 50`. Исходный файл: [brain-gcd.cast](brain-gcd.cast). Локально: `asciinema play brain-gcd.cast`.
+
 ## Публикация пакета (dry-run)
 
 ```bash

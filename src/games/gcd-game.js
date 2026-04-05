@@ -1,14 +1,16 @@
 import getGameLaunch from '../index.js'
 import getRandomNumber from '../utils.js'
 
-const getGCD = (numOne, numTwo) => {
-  let gcd = 1
-  for (let i = 2; i <= numOne; i += 1) {
-    if (numOne % i === 0 && numTwo % i === 0) {
-      gcd = i
-    }
+const getGCD = (a, b) => {
+  let x = a
+  let y = b
+  while (y !== 0) {
+    const r = x % y
+    x = y
+    y = r
   }
-  return gcd
+
+  return x
 }
 
 const playGCD = () => {
