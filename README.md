@@ -55,6 +55,12 @@ npx brain-prime
 
 В записи: три раунда по примеру из задания и второй запуск с неверным ответом на первом вопросе. Исходный файл: [brain-progression.cast](brain-progression.cast). Локально: `asciinema play brain-progression.cast`.
 
+### brain-prime
+
+[![asciicast](https://asciinema.org/a/3VGiTst0ZpxhqUZ1.svg)](https://asciinema.org/a/3VGiTst0ZpxhqUZ1)
+
+В записи: три верных ответа (7 — yes, 4 — no, 11 — yes) и второй запуск с ошибкой для числа `7`. Исходный файл: [brain-prime.cast](brain-prime.cast). Локально: `asciinema play brain-prime.cast`.
+
 ## Публикация пакета (dry-run)
 
 ```bash
