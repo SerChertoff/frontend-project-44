@@ -39,15 +39,9 @@ npx brain-prime
 
 ### brain-calc
 
-Запись **[brain-calc.cast](brain-calc.cast)** в корне репозитория: запуск `node bin/brain-calc.js`, полное прохождение (три верных ответа, поздравление), затем второй запуск с **ошибкой** на первом вопросе (вывод «wrong answer», «Let's try again»).
+[![asciicast](https://asciinema.org/a/INubNjcEgFhopci5.svg)](https://asciinema.org/a/INubNjcEgFhopci5)
 
-Воспроизведение локально:
-
-```bash
-asciinema play brain-calc.cast
-```
-
-Чтобы получить превью как у brain-even, загрузите этот файл на [asciinema.org](https://asciinema.org) и добавьте в README строку вида `[![asciicast](https://asciinema.org/a/<id>.svg)](https://asciinema.org/a/<id>)`.
+В записи: полное прохождение (три верных ответа, поздравление) и второй запуск с **ошибкой** на первом вопросе. Исходный файл в репозитории: [brain-calc.cast](brain-calc.cast). Локально: `asciinema play brain-calc.cast`.
 
 ## Публикация пакета (dry-run)
 
